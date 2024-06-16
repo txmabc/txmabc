@@ -1,14 +1,14 @@
-# txmabc-django-cms
+# txmabc
 
 #### 介绍
-基于Django开发的CMS框架，不定期持续更新！
+基于Django开发的网站应用，持续更新中！
 
 #### 安装教程
 
 1.  `git clone https://gitee.com/txmabc/txmabc.git`
 2.  `cd txmabc`
 3.  `docker build -t txmabc/txmabc .`
-4.  `docker run --rm -d --name txmabc-django -p 8000:8000 -v ${PWD}:/code txmabc/txmabc`
+4.  `docker run --rm -d --name txmabc-demo -p 8000:8000 -v ${PWD}:/code txmabc/txmabc`
 
 #### 使用说明
 
